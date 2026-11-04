@@ -53,7 +53,7 @@ Near m3 = 4.5468717648 the index s2 comes down to −2. The 30-digit margin is 1
 4. **Continuation.** Continued from m3 = 3.949 to 10.000, the family keeps its word. At the other masses on the way for which a list exists (m3 = 4, 8, 10) it is not in the list either (85, 17, 9 orbits).
 5. **Other collections.** The atlas threebodyorbits.com contains, for these masses, exactly the orbits of Li, Jing & Liao (2018). The 135,445 orbits of Li, Li & Liao (2021), 13,315 of them stable, have masses between 0.7 and 1.2, so none has the ratio 1 : 1 : 5. A literature search (October–November 2026) found no newer list for this configuration.
 
-**Limits of this claim.** "Not in the lists" means: not in the lists we know and checked. Hristov et al. cover equal masses only (T* < 211). Li, Jing & Liao list one orbit per class, from initial conditions in the square 0 < a, b < 1; family B lies outside that square (at m3 = 5, b = 1.774). Our search finds symmetric orbits only.
+**Limits of this claim.** "Not in the lists" means: not in the lists we know and checked. Hristov et al. cover equal masses only (T* < 211). Li, Jing & Liao list one orbit per class; all 35 orbits they list at these masses lie in the square 0 < a, b < 1 (at all seven masses, all but 3 of 1349). Family B lies outside that square (at m3 = 5, b = 1.774). Our search finds symmetric orbits only.
 
 ## A second candidate: family A
 
@@ -81,7 +81,7 @@ node alle-pruefen.mjs daten/family-B-30digit.csv
 node halbperiode.mjs --m 1,1,5 --a 0.79623821011254661853007106578327 --b 1.77433055827060488061484304997624 --T 19.25669842976743050033657405267752
 ```
 
-The first line integrates one period at 320 and at 448 bits and computes both stability indices (about one and a half minutes for family B on one core). The second repeats this for every row of the table and compares verdicts and indices with the table. The third checks the half-period symmetry and M = N² in double precision (a few seconds). The search, the list comparisons and the continuation tools are in the main project (`werkzeug/massen-fortsetzung.mjs`, `werkzeug/familien-abgleich.mjs`, `werkzeug/fast-vielfach.mjs`, `werkzeug/stillstand.mjs`).
+The first line integrates one period at 320 and at 448 bits and computes both stability indices (about one and a half minutes for family B on one core). The second repeats this for every row of the table and compares verdicts and indices with the table. The third checks the half-period symmetry and M = N² in double precision (0.3 s for family B, measured). The search, the list comparisons and the continuation tools are in the main project (`werkzeug/massen-fortsetzung.mjs`, `werkzeug/familien-abgleich.mjs`, `werkzeug/fast-vielfach.mjs`, `werkzeug/stillstand.mjs`).
 
 ## Files
 
