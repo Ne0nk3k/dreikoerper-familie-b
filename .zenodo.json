@@ -1,0 +1,38 @@
+{
+  "upload_type": "dataset",
+  "title": "Family B: a linearly stable family of planar periodic three-body orbits whose topology is not in the published lists",
+  "version": "1.0.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Habl, Felix"
+    }
+  ],
+  "description": "<p>A one-parameter family of symmetric periodic orbits of the planar three-body problem (G = 1, zero angular momentum, m1 = m2 = 1, isosceles collinear initial conditions), free-group word ABABABAbabababaB, linearly stable for m3 from 4.21 to 5.034 (30-digit samples; at m3 ≈ 4.5468718 one index touches −2 without crossing it, a consequence of a half-period symmetry). Its word occurs in none of the published lists checked (Li &amp; Liao 2017, Li, Jing &amp; Liao 2018, Šuvakov &amp; Dmitrašinović 2013, Hristov et al.), at any mass. At m3 = 5: a = 0.79623821011254661853007106578327, b = 1.77433055827060488061484304997624, T = 19.25669842976743050033657405267752, stability indices 1.47916 and 1.43911. Includes the 30-digit data along the family, a second candidate (family A), and the verification code.</p><p>\"Not in the lists\" means: not in the lists we know and checked; Hristov et al. cover equal masses only, Li, Jing &amp; Liao list one orbit per class from the square 0 &lt; a, b &lt; 1, outside which family B lies.</p>",
+  "keywords": [
+    "three-body problem",
+    "periodic orbits",
+    "linear stability",
+    "celestial mechanics",
+    "unequal masses"
+  ],
+  "license": "cc-by-4.0",
+  "notes": "Data and text: CC BY 4.0. Code (bahn-pruefen.mjs, alle-pruefen.mjs, halbperiode.mjs, genau.mjs, kern.js, quellen.mjs): MIT. Felix Habl had the idea and directed the work; the code, the computations and the documentation were written by Claude, an AI model by Anthropic. Every number comes from a computation.",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23536576",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "software"
+    }
+  ],
+  "references": [
+    "Li X, Liao S (2017). More than six hundred new families of Newtonian periodic planar collisionless three-body orbits. Sci. China Phys. Mech. Astron. 60, 129511. doi:10.1007/s11433-017-9078-5",
+    "Li X, Jing Y, Liao S (2018). Over a thousand new periodic orbits of a planar three-body system with unequal masses. Publ. Astron. Soc. Japan 70, 64. doi:10.1093/pasj/psy057",
+    "Li X, Liao S (2019). Collisionless periodic orbits in the free-fall three-body problem. New Astronomy 70, 22-26. doi:10.1016/j.newast.2019.01.003",
+    "Šuvakov M, Dmitrašinović V (2013). Three classes of Newtonian three-body planar periodic orbits. Phys. Rev. Lett. 110, 114301.",
+    "Hristov I, Hristova R, et al. Databases of periodic three-body orbits, db2.fmi.uni-sofia.bg; arXiv:2404.16526, arXiv:2308.16159, arXiv:2510.22802.",
+    "Li X, Li X, Liao S (2021). One family of 13315 stable periodic orbits of non-hierarchical unequal-mass triple systems. Sci. China Phys. Mech. Astron. 64, 219511. doi:10.1007/s11433-020-1624-7",
+    "Habl F (2026). dreikoerper: a search engine for periodic orbits of the planar three-body problem, and its finds. Zenodo. doi:10.5281/zenodo.23536576"
+  ]
+}
