@@ -1,5 +1,7 @@
 # Family B: a linearly stable family of planar periodic three-body orbits whose topology is not in the published lists
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23987401.svg)](https://doi.org/10.5281/zenodo.23987401)
+
 Felix Habl. Code and computations written with Claude, an AI model by Anthropic. Companion to the search engine [dreikoerper](https://github.com/Ne0nk3k/dreikoerper) ([doi:10.5281/zenodo.23536576](https://doi.org/10.5281/zenodo.23536576)).
 
 ## Summary
@@ -96,7 +98,7 @@ The first line integrates one period at 320 and at 448 bits and computes both st
 
 ## How to cite
 
-See `CITATION.cff` (GitHub: "Cite this repository").
+Habl, F. (2026). Family B: a linearly stable family of planar periodic three-body orbits whose topology is not in the published lists. Zenodo. [doi:10.5281/zenodo.23987401](https://doi.org/10.5281/zenodo.23987401)
 
 ## References
 

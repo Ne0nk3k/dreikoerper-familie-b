@@ -7,6 +7,7 @@ authors:
     given-names: Felix
 repository-code: "https://github.com/Ne0nk3k/dreikoerper-familie-b"
 version: "1.0.0"
+doi: "10.5281/zenodo.23987401"
 license:
   - CC-BY-4.0
   - MIT
